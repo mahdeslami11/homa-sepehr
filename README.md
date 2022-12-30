@@ -157,3 +157,12 @@ WechatPay(微信)
 ## **License**
 
 [MIT](LICENSE) © Kun
+
+
+
+
+
+1-target
+
+the purpose of this project is to voice conversion by using cycleGAN-vc2 and non-parallel data which has three techniques:an improved objective (two-step adversarial losses), improved generator (2-1-2D CNN ), and improved discriminator (Patch GAN).In fact, cycleGAN-vc2 is an improved cycleGAN-vc, which itself had three methods, and those three methods were upgraded to obtain cycleGAN-vc2 methods.
+

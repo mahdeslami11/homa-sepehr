@@ -1,1 +1,20 @@
 new file by homa
+
+(1)target 
+
+Voice conversion method using improved cycleGAN based on parallel data called cycleGAN-vc2 which has three methods: Improved Objective:
+Two-Step Adversarial Losses, Improved Generator: 2-1-2D CNN,Improved Discriminator: PatchGAN These , these three methods are the same improved methods in
+cycleGAN-vc and they were : Objective: One-Step Adversarial Loss,Generator: 1D CNN, Discriminator: FullGAN and for explain the codes This code is a 
+PyTorch implementation and the libraris that we used in codes were :torch.nn as nn,torch, numpy as np, etc.
+and some classes like: GLU, PixelShuffle,ResidualLayer,....
+ downSample_Generator,Generator
+
+(2)explain the innovation 
+
+my innovation was about combine the cycleGAN-vc2 with cycleGAN-vc and in addition use a new method as sTARGAN for this innovation we have to use more libraries
+in our codes,such as:torch,os,random,data,transform, tensorflow as tf,scipy.misc . And we also defined newer classes like : CelebA, Solver, ResidualBlock, 
+ Discriminator. in STARGAN method at first we set a Model and then describe model configurations and with these codes We make changes to the model also
+ by the cycleGAN-VC2  we can define some layers and change them by their self, in_channels, out_channels, kernel_size, stride, padding)
+
+
+(3)
